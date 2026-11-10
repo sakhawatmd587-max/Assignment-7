@@ -5,7 +5,7 @@ import { getProducts } from "@/lib/api";
 import { taka } from "@/lib/format";
 import ChangeBadge from "@/components/ChangeBadge";
 
-export const dynamic = "force-dynamic";
+
 
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
   const session = await auth.api.getSession({ headers: await headers() });

@@ -1,5 +1,8 @@
 import CategoryView from "@/components/CategoryView";
 
+
+
+
 export default async function CategoryPage({
   params,
 }: {
